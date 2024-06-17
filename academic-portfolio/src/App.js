@@ -8,6 +8,7 @@ import Publications from './components/Publications';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Navigation from './components/Navigation';
+import './App.css';
 
 const App = () => {
   return (
