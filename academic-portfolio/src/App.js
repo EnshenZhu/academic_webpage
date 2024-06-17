@@ -7,11 +7,13 @@ import Research from './components/Research';
 import Publications from './components/Publications';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
+import Navigation from './components/Navigation';
 
 const App = () => {
   return (
     <Router>
       <div>
+        <Navigation />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
