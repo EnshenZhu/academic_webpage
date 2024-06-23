@@ -4,8 +4,8 @@ const Contact = () => {
     return (
         <div className="contact">
             <h1>Contact</h1>
-            <p>Email: your.email@example.com</p>
-            <p>LinkedIn: your-linkedin-profile</p>
+            <p>Email: enshen@uoguelph.ca</p>
+            <p>LinkedIn: www.linkedin.com/in/enshen-zhu</p>
         </div>
     );
 };
