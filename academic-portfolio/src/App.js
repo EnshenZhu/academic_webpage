@@ -8,6 +8,7 @@ import Publications from './components/Publications';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Navigation from './components/Navigation';
+import Footer from './components/Footer';
 import './App.css';
 
 const App = () => {
@@ -24,6 +25,7 @@ const App = () => {
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
+        <Footer />
       </div>
     </Router>
   );
