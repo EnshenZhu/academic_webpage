@@ -17,7 +17,9 @@ const App = () => {
       <div>
         <Navigation />
         <Routes>
+          {/* dual route for the home page */}
           <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/education" element={<Education />} />
           <Route path="/research" element={<Research />} />
