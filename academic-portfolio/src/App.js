@@ -1,15 +1,18 @@
 import React from 'react';
 import { HashRouter as Router, Route, Routes } from 'react-router-dom';
-import Home from './components/Home';
-import About from './components/About';
-import Education from './components/Education';
-import Research from './components/Research';
-import Publications from './components/Publications';
-import Projects from './components/Projects';
-import Comments from './components/Comments';
-import Contact from './components/Contact';
+
 import Navigation from './components/Navigation';
 import Footer from './components/Footer';
+
+import Home from './views/Home';
+import About from './views/About';
+import Education from './views/Education';
+import Research from './views/Research';
+import Publications from './views/Publications';
+import Projects from './views/Projects';
+import Comments from './views/Comments';
+import Contact from './views/Contact';
+
 import './App.css';
 
 const App = () => {
