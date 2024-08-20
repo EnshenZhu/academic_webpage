@@ -6,6 +6,7 @@ import Education from './components/Education';
 import Research from './components/Research';
 import Publications from './components/Publications';
 import Projects from './components/Projects';
+import Comments from './components/Comments';
 import Contact from './components/Contact';
 import Navigation from './components/Navigation';
 import Footer from './components/Footer';
@@ -25,6 +26,7 @@ const App = () => {
           <Route path="/research" element={<Research />} />
           <Route path="/publications" element={<Publications />} />
           <Route path="/projects" element={<Projects />} />
+          <Route path="/comments" element={<Comments />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
         <Footer />
