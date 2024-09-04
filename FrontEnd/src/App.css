@@ -31,7 +31,9 @@ body {
 .publications,
 .projects,
 .contact {
-  padding: 2rem;
+  padding-top: 1rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
 }
 
 footer {
